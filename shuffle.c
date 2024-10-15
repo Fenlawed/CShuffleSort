@@ -108,6 +108,7 @@ int main(void)
 	{
 		for (int i = 0; i < total; i++)//Let the user input the values
 		{
+			printf("Array index %d is : ", i);
 			scanf("%d",array+i);
 		}
 		//array = shuffle(array, total); //Uncomment if you want the array to shuffle after user input
